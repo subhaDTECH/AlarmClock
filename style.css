@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(174, 199, 221);
+}
+form{
+    display: grid;
+    place-items: center;
+}
+input{
+    width: 500px;
+    min-width: 400px;
+}
+@media(max-width:800px){
+    input{
+        min-width: 300px ;
+    }
+}
