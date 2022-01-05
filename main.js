@@ -18,6 +18,7 @@ document.getElementById('btn').addEventListener('click',(e)=>{
        console.log('finfished');
        setTimeout(()=>{
            ringbell();
+           alert("Alarm is ringing 🕥")
            
        },totaltime)
    }
