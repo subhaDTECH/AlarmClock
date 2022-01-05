@@ -13,6 +13,7 @@ document.getElementById('btn').addEventListener('click',(e)=>{
    }
 
    let totaltime=(realgivintime-currentdate);
+   console.log(currentdate)
    console.log(totaltime)
    if(totaltime>=0){
        console.log('finfished');
